@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .login-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 30px 24px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #fff;
+  }
+  
+  .logo {
+    display: block;
+    width: 200px;
+    margin: 0 auto 20px;
+  }
+  
+  h2 {
+    margin-bottom: 24px;
+    font-size: 22px;
+    color: #000;
+    font-weight: normal;
+  }
+  
+  form input[type="email"],
+  form input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+    outline: none;
+  }
+  
+  form input[type="email"]::placeholder,
+  form input[type="password"]::placeholder {
+    color: #aaa;
+  }
+  
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 24px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .checkbox-container input {
+    margin-right: 8px;
+    width: 16px;
+    height: 16px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  button:hover {
+    background-color: #1976d2;
+  }
+  
+  .links {
+    margin-top: 24px;
+  }
+  
+  .links a {
+    display: block;
+    color: #2196f3;
+    margin: 6px 0;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive */
+  @media (max-width: 400px) {
+    .login-container {
+      padding: 20px 16px;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  
+    form input {
+      font-size: 14px;
+    }
+  
+    button {
+      font-size: 14px;
+    }
+  
+    .links a {
+      font-size: 13px;
+    }
+  }
