@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Registro</title>
+  <link rel="stylesheet" href="../styles/estilos.css">
+</head>
+<body>
+  <div class="registro-container">
+    <div class="header">
+      <img src="../images/Nikairlines.png" alt="ACME Air" class="logo-header" />
+    </div>
+
+    <div class="form-container">
+      <h2>Registro</h2>
+      <hr />
+
+      <form>
+        <input type="text" placeholder="Nombre Completo" required />
+        <input type="text" placeholder="No. Identificación" required />
+        <input type="email" placeholder="E-mail" required />
+        <input type="tel" placeholder="Teléfono" required />
+        <select required>
+          <option value="" disabled selected>Ciudad</option>
+          <option value="bogota">Bogotá</option>
+          <option value="medellin">Medellín</option>
+          <option value="cali">Cali</option>
+        </select>
+
+        <button type="submit">GUARDAR</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
