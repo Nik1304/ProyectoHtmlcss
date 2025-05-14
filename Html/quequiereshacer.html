@@ -1,47 +1,43 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>ACME AIR</title>
-  <link rel="stylesheet" href="../css/estilos.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="../styles/estilos.css">
 </head>
-<body>
-
-  <div class="header">
-    <img src="../images/Nikairlines.png" alt="Logo ACME AIR">
-    <h1>ACME AIR</h1>
-    <p>Flying to your dreams</p>
-  </div>
-
-  <div class="container">
-    <h2>¡Hola Usuario!</h2>
-    <p>¿Qué quieres hacer?</p>
-    <a href="#" class="logout">Cerrar Sesión</a>
-
-    <div class="card">
-      <div class="card-icon">
-        <img src="../images/buscarvuelos1.png" alt="Buscar vuelos">
-      </div>
-      <div class="card-text">Buscar vuelos</div>
-      <div class="card-arrow">›</div>
+<body class="fondo_colorido">
+    <section class="cabecera">
+        <img src="../images/Nikairlines.png" alt="imagen_cabecera" class="imagen_cabecera">
+        <div class="marca">
+            <span class="titulo">ACME  AIR</span>
+            <span class="dicho">Flying to your dreams</span>
+        </div>
+    </section>
+    <div class="contenedor_universal">
+        <div class="contenedor_cabecera">
+            <span>¡Hola,Usuario!</span>
+            <span id="home_span">¿Que quieres hacer?</span>
+            <a href=""><span id="link_cerrar_sesion">Cerrar sesión</span></a>
+        </div class="contenedor_opciones">
+            <div id="home_container">
+                <div class="opciones_container">
+                    <img src="../images/buscarvuelos1.png" alt="buscar_vuelos_image">
+                    <span class="descripcion_home_page">Mis vuelos</span>
+                    
+                </div>
+                <div class="opciones_container">
+                    <img src="../images/check2.png" alt="check_in_image">
+                    <span class="descripcion_home_page">Check-in</span>
+                 
+                </div>
+                <div class="opciones_container">
+                    <img src="../images/misvuelos3.png" alt="mis_vuelos_image">
+                    <span class="descripcion_home_page">Mis vuelos</span>
+                   
+                </div>
+            </div>
     </div>
-
-    <div class="card">
-      <div class="card-icon">
-        <img src="../images/check2.png" alt="Check In">
-      </div>
-      <div class="card-text">Check In</div>
-      <div class="card-arrow">›</div>
-    </div>
-
-    <div class="card">
-      <div class="card-icon">
-        <img src="../images/misvuelos3.png" alt="Mis Vuelos">
-      </div>
-      <div class="card-text">Mis Vuelos</div>
-      <div class="card-arrow">›</div>
-    </div>
-  </div>
-
 </body>
 </html>
+﻿

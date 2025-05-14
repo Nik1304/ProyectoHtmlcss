@@ -213,5 +213,83 @@
     button:hover {
       background-color: #1976d2;
     }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      color: #333;
+  }
+  
+  .header2 {
+      background-color: #003366;
+      color: white;
+      padding: 15px 20px;
+      font-size: 24px;
+      font-weight: bold;
+  }
+  
+  .tagline {
+      background-color: #0066cc;
+      color: white;
+      padding: 5px 20px;
+      font-size: 14px;
+  }
+  
+  .user-greeting {
+      padding: 20px;
+      font-size: 18px;
+      border-bottom: 1px solid #ddd;
+      background-color: white;
+  }
+  
+  .menu {
+      background-color: white;
+      padding: 10px 0;
+  }
+  
+  .menu-item {
+      padding: 15px 20px;
+      border-bottom: 1px solid #eee;
+      cursor: pointer;
+      transition: background-color 0.3s;
+  }
+  
+  .menu-item:hover {
+      background-color: #f0f0f0;
+  }
+  
+  .menu-item:last-child {
+      border-bottom: none;
+  }
+  
+  /* Estilo para el texto en español */
+  span[lang="es"] {
+      font-style: italic;
+  }
+  #home_span {
+    font-size: 20px;
+}
 
+#link_cerrar_sesion {
+    font-size: 17px
+}
+
+#home_container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    padding-bottom: 60%;
+}
+
+.opciones_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    box-shadow: 1px 8px 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
   
