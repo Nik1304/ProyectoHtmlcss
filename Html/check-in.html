@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/estilos.css" />
+</head>
+
+<body id="body-navegacion">
+    <div class="mensaje-advertencia">
+        Este sitio no es apto para ordenadores, ingrese desde un dispositivo movil
+    </div>
+    <header class="header-banner">
+        <img src="/imagenes/banner.png" alt="Banner de Acme Air">
+    </header>
+    
+    <main id="main-registro-buscar">
+        <div class="formulario-registro">
+            <div class="cabecera">
+                <img src="/imagenes/user.png">
+                <div>
+                    <h1>Jhon Doe</h1>
+                    <a href="/html/login.html">Cerrar sesion</a>
+                </div>
+
+            </div>
+            <hr class="linea-horizontal" id="linea-horizontal-busqueda">
+            <h1 id="busqueda-vuelos">Check In</h1>
+            <div class="tarjetas" id="tarjeta-vuelos-id">
+                <div class="tarjeta-vuelo">
+                    <img src="/imagenes/volando.png">
+                    <div class="hora-horas-2">
+                        <p>05:30 - 06:30</p>
+                        <div id="divdetarjeta">
+                            <p>1h 30 min</p><span style="font-size: 20px;">VAA025</span>
+                        </div>
+                        <p>Bogotà - Barranquilla</p>
+                    </div>
+
+                </div>
+                <form class="formulario-vuelos" method="get" action="/html/pagina-principal.html">
+                    <h4 id="vuelo-propio">Contacto en caso de emergencia</h4>
+                    <input type="text" placeholder="Nombre" required class="campo-dato">
+                    <input type="tel" placeholder="No. Telefono Celular" required class="campo-dato">
+                    <button type="submit" id="boton-guardar-check">Guardar</button>
+                </form>
+            </div>
+    </main>
+</body>
+
+</html>

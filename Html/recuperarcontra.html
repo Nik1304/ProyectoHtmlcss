@@ -1,31 +1,31 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Recuperar Contraseña</title>
-  <link rel="stylesheet" href="../styles/estilos.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/estilos.css" />
 </head>
-<body>
-  <div class="recuperar-container">
-    <div class="header">
-      <img src="../images/Nikairlines.png" alt="Nikairlines" class="logo-header" />
+
+<body id="body-navegacion">
+    <div class="mensaje-advertencia">
+        Este sitio no es apto para ordenadores, ingrese desde un dispositivo movil
     </div>
-
-    <div class="form-container">
-      <h2>Recuperar Contraseña</h2>
-      <hr />
-
-      <form>
-        <input type="email" placeholder="Email" required />
-
-        <p class="info-text">
-          Si el e-mail se encuentra registrado se enviará un link para continuar con la recuperación de su contraseña.
-        </p>
-
-        <button type="submit">ENVIAR</button>
-      </form>
-    </div>
-  </div>
+    <header class="header-banner">
+        <img src="/imagenes/banner.png" alt="Banner de Acme Air">
+    </header>
+    <main id="main-registro">
+        <div class="formulario-registro">
+            <form class="formulario-registro" method="get" action="/html/crear-contraseña.html">
+            <h1>Recuperar Contraseña</h1>
+            <hr class="linea-horizontal">
+            <input type="text" placeholder="E-mail" required class="campo-dato">
+            <p>Si el email se encuentra registrado se enviará un link para continuar con la recuperación de su contraseña.</p>
+        <button type="submit" id="boton-enviar-recuperar">Enviar</button>    
+        </form>
+        </div>
+    </main>
 </body>
+
 </html>

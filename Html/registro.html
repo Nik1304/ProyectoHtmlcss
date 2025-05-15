@@ -1,36 +1,44 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Registro</title>
-  <link rel="stylesheet" href="../styles/estilos.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/estilos.css" />
 </head>
-<body>
-  <div class="registro-container">
-    <div class="header">
-      <img src="../images/Nikairlines.png" alt="Nikairlines" class="logo-header" />
+
+<body id="body-navegacion">
+    <div class="mensaje-advertencia">
+        Este sitio no es apto para ordenadores, ingrese desde un dispositivo movil
     </div>
-
-    <div class="form-container">
-      <h2>Registro</h2>
-      <hr />
-
-      <form>
-        <input type="text" placeholder="Nombre Completo" required />
-        <input type="text" placeholder="No. Identificación" required />
-        <input type="email" placeholder="E-mail" required />
-        <input type="tel" placeholder="Teléfono" required />
-        <select required>
-          <option value="" disabled selected>Ciudad</option>
-          <option value="bogota">Bucaramanga</option>
-          <option value="medellin">Medellín</option>
-          <option value="cali">Cali</option>
-        </select>
-
-        <button type="submit">GUARDAR</button>
-      </form>
-    </div>
-  </div>
+    <header class="header-banner">
+            <img src="/imagenes/banner.png" alt="Banner de Acme Air">
+        </header>
+    <main id="main-registro">
+        <div class="formulario-registro">
+            <form class="formulario-registro" method="get" action="/html/crear-contraseña.html">
+                <h1>Registro</h1>
+                <hr class="linea-horizontal">
+                <input type="text" placeholder="Nombre" required class="campo-dato">
+                <input type="text" placeholder="No. Identificacion" required class="campo-dato">
+                <input type="text" placeholder="E-mail" required class="campo-dato">
+                <input type="tel" placeholder="Teléfono" required class="campo-dato">
+                <select class="campo-dato" required>
+                    <option value="0" class="campo-dato">Ciudad</option>
+                    <option value="1" class="campo-dato">Bogota</option>
+                    <option value="2" class="campo-dato">Bucaramanga</option>
+                    <option value="3" class="campo-dato">Cali</option>
+                    <option value="4" class="campo-dato">Medellin</option>
+                    <option value="5" class="campo-dato">Barranquilla</option>
+                    <option value="6" class="campo-dato">Cartagena</option>
+                    <option value="7" class="campo-dato">Pereira</option>
+                    <option value="8" class="campo-dato">Tunja</option>
+                </select>
+                <button type="submit" >Guardar</button>
+            </form>
+        </div>
+    </main>
 </body>
+
 </html>

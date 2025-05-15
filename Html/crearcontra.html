@@ -1,28 +1,30 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Crear Contraseña</title>
-  <link rel="stylesheet" href="../styles/estilos.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/estilos.css" />
 </head>
-<body>
-  <div class="crear-container">
-    <div class="header">
-      <img src="../images/Nikairlines.png" alt="Nikairlines" class="logo-header" />
+
+<body id="body-navegacion">
+    <div class="mensaje-advertencia">
+        Este sitio no es apto para ordenadores, ingrese desde un dispositivo movil
     </div>
-
-    <div class="form-container">
-      <h2>Crear Contraseña</h2>
-      <hr />
-
-      <form>
-        <input type="password" placeholder="Contraseña" required />
-        <input type="password" placeholder="Repetir Contraseña" required />
-
-        <button type="submit">GUARDAR</button>
-      </form>
-    </div>
-  </div>
+    <header class="header-banner">
+        <img src="/imagenes/banner.png" alt="Banner de Acme Air">
+    </header>
+    <main id="main-registro">
+        <div class="formulario-registro">
+            <form class="formulario-registro" method="get" action="/html/pagina-principal.html">
+            <h1>Crear contraseña</h1>
+            <hr class="linea-horizontal" id="linea-horizontal-crear">
+            <input type="text" placeholder="Contraseña" required class="campo-dato">
+            <input type="text" placeholder="Repetir contraseña" required class="campo-dato">
+            <button type="submit" id="boton-enviar-recuperar">Guardar</button>    
+        </form>
+        </div>
+    </main>
 </body>
+
 </html>
