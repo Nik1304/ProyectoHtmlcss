@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/estilos.css" />
+</head>
+
+<body>
+    <div class="mensaje-advertencia">
+        Este sitio no es apto para ordenadores, ingrese desde un dispositivo movil
+    </div>
+    <main>
+        <div class="logo-iniciar-sesion">
+            <img src="/imagenes/logo.png" alt="Imagen del logo de Acme Air">
+            <h1>Iniciar Sesión</h1>
+        </div>
+        <form action="/html/pagina-principal.html" method="get" class="formulario-iniciosesion">
+            <div class="campo-iniciosesion">
+                <label><input type="email" nombre="Nombre" placeholder="Email" required class="campo-dato"></label>
+                <label><input type="password" name="contraseña" placeholder="Contraseña" required class="campo-dato"></label>
+            </div>
+            <div class="pagina-inicio-checkbox">
+                <input type="checkbox">
+                <label>Recordar mis datos</label>
+            </div>
+            <div class="boton-ingresar">
+                <button type="submit">INGRESAR</button>
+            </div>
+        </form>
+        <div class="crear-recuperar">
+            <a href="/html/registro.html">Crear cuenta</a>
+            <a href="/html/recuperar-contraseña.html">¿Has olvidado tu contraseña?</a>
+        </div>
+    </main>
+</body>
+
+</html>
